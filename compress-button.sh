@@ -42,7 +42,7 @@ fi
 #Compress File
 
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
--dPDFSETTINGS=/$level -dNOPAUSE -dQUIET -dBATCH \
+-dPDFSETTINGS=/$level -dNOPAUSE -dPrinted=false -dQUIET -dBATCH \
 -sOutputFile="${output_file}" "${file}"
 
 #Success Message
