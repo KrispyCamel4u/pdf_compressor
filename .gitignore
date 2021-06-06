@@ -1,0 +1,6 @@
+exp.py
+*.glade~
+*.glade\~
+*.out
+pdfs/
+pdfs/*
